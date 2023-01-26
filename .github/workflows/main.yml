@@ -6,7 +6,7 @@ jobs:
     steps:
     - uses: actions/checkout@v1
     - name: Run make4ht
-      uses:  docker://ghcr.io/michal-h21/make4ht-action:latest
+      uses: michal-h21/make4ht-action@master
       env:
         command: 'make4ht -c config.cfg -ua -l debug -d out main.tex "fn-in"'
     - name: Publish the web pages
