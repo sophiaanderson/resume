@@ -1,0 +1,660 @@
+This is XeTeX, Version 3.141592653-2.6-0.999994 (TeX Live 2022) (preloaded format=xelatex 2023.1.25)  25 JAN 2023 13:40
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**\makeatletter\def\HCode{\futurelet\HCode\HChar}\def\HChar{\ifx"\HCode\def\HCo
+de"##1"{\Link##1}\expandafter\HCode\else\expandafter\Link\fi}\def\Link#1.a.b.c.
+{\AddToHook{class/before}{\RequirePackage[#1,html]{tex4ht}}\let\HCode\documents
+tyle\def\documentstyle{\let\documentstyle\HCode\expandafter\def\csname tex4ht\e
+ndcsname{#1,html}\def\HCode####1{\documentstyle[tex4ht,}\@ifnextchar[{\HCode}{\
+documentstyle[tex4ht]}}}\makeatother\HCode xhtml,,charset=utf-8,html5.a.b.c.\in
+put "\detokenize{main.tex}"
+(./main.tex (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/tex4ht.sty
+version 2021-09-14-14:11
+Package: tex4ht 
+--------------------------------------
+--- Note --- for _ at preamble, use the command line option `early_'
+--------------------------------------
+--------------------------------------
+--- Note --- for ^ at preamble, use the command line option `early^'
+--------------------------------------
+(/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/tuenc-xetex-input.4ht
+version 2021-05-02-10:08
+(/usr/local/texlive/2022/texmf-dist/tex/generic/kastrup/binhex.tex)
+\xeuniblock=\count181
+)
+\tmp:toks=\toks16
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2021/10/04 v1.4n Standard LaTeX document class
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2021/10/04 v1.4n Standard LaTeX file (size option)
+)
+\c@part=\count182
+\c@section=\count183
+\c@subsection=\count184
+\c@subsubsection=\count185
+\c@paragraph=\count186
+\c@subparagraph=\count187
+\c@figure=\count188
+\c@table=\count189
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen138
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/usepackage.4ht
+version 2022-03-16-14:13
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/babel/babel.sty
+Package: babel 2022/02/26 3.73 The Babel package
+\babel@savecnt=\count190
+\U@D=\dimen139
+\l@unhyphenated=\language87
+(/usr/local/texlive/2022/texmf-dist/tex/generic/babel/xebabel.def (/usr/local/t
+exlive/2022/texmf-dist/tex/generic/babel/txtbabel.def))
+\bbl@readstream=\read2
+\bbl@dirlevel=\count191
+(/usr/local/texlive/2022/texmf-dist/tex/generic/babel-english/english.ldf
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language21). Reported on input line 108.
+)) (./config/minimal-resume-config.tex (./config/minimal-resume.sty
+Package: config/minimal-resume 
+(/usr/local/texlive/2022/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2020/01/02 v5.9 Page Geometry
+(/usr/local/texlive/2022/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/ifvtex.sty
+Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
+(/usr/local/texlive/2022/texmf-dist/tex/generic/iftex/iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+))
+\Gm@cnth=\count192
+\Gm@cntv=\count193
+\c@Gm@tempcnt=\count194
+\Gm@bindingoffset=\dimen140
+\Gm@wd@mp=\dimen141
+\Gm@odd@mp=\dimen142
+\Gm@even@mp=\dimen143
+\Gm@layoutwidth=\dimen144
+\Gm@layoutheight=\dimen145
+\Gm@layouthoffset=\dimen146
+\Gm@layoutvoffset=\dimen147
+\Gm@dimlist=\toks18
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+2.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/lm/t1lmr.fd
+File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/fontspec-hooks.4ht
+version 2020-10-17-13:53
+(/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/usepackage-fontspec.4ht
+version 2020-09-02-14:24
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.sty (/usr/lo
+cal/texlive/2022/texmf-dist/tex/latex/l3packages/xparse/xparse.sty (/usr/local/
+texlive/2022/texmf-dist/tex/generic/tex4ht/expl3-hooks.4ht
+version 2020-10-17-13:53
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
+(/usr/local/texlive/2022/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
+File: l3backend-xetex.def 2022-02-07 L3 backend support: XeTeX
+(|extractbb --version)
+\c__kernel_sys_dvipdfmx_version_int=\count195
+\l__color_backend_stack_int=\count196
+\g__color_backend_stack_int=\count197
+\g__graphics_track_int=\count198
+\l__pdf_internal_box=\box50
+\g__pdf_backend_object_int=\count199
+\g__pdf_backend_annotation_int=\count266
+\g__pdf_backend_link_int=\count267
+))
+Package: xparse 2022-01-12 L3 Experimental document command parser
+)
+Package: fontspec 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTeX
+(/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec-xetex.sty
+Package: fontspec-xetex 2022/01/15 v2.8a Font selection for XeLaTeX and LuaLaTe
+X
+\l__fontspec_script_int=\count268
+\l__fontspec_language_int=\count269
+\l__fontspec_strnum_int=\count270
+\l__fontspec_tmp_int=\count271
+\l__fontspec_tmpa_int=\count272
+\l__fontspec_tmpb_int=\count273
+\l__fontspec_tmpc_int=\count274
+\l__fontspec_em_int=\count275
+\l__fontspec_emdef_int=\count276
+\l__fontspec_strong_int=\count277
+\l__fontspec_strongdef_int=\count278
+\l__fontspec_tmpa_dim=\dimen148
+\l__fontspec_tmpb_dim=\dimen149
+\l__fontspec_tmpc_dim=\dimen150
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/usr/local/texlive/2022/texmf-dist/tex/latex/fontspec/fontspec.cfg))) (/usr/
+local/texlive/2022/texmf-dist/tex/latex/microtype/microtype.sty
+Package: microtype 2022/03/14 v3.0d Micro-typographical refinements (RS)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/etoolbox/etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count279
+)
+\MT@toks=\toks19
+\MT@tempbox=\box51
+\MT@count=\count280
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1027.
+LaTeX Info: Redefining \leftprotrusion on input line 1028.
+LaTeX Info: Redefining \rightprotrusion on input line 1036.
+LaTeX Info: Redefining \textls on input line 1195.
+\MT@outer@kern=\dimen151
+LaTeX Info: Redefining \textmicrotypecontext on input line 1781.
+\MT@listname@count=\count281
+(/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/microtype-xetex.def
+File: microtype-xetex.def 2022/03/14 v3.0d Definitions specific to xetex (RS)
+LaTeX Info: Redefining \lsstyle on input line 236.
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/microtype/microtype.cfg
+File: microtype.cfg 2022/03/14 v3.0d microtype main configuration file (RS)
+)) (/usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/scrextend.sty
+Package: scrextend 2021/11/13 v3.35 KOMA-Script package (extend other classes w
+ith features of KOMA-Script classes)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/scrkbase.sty
+Package: scrkbase 2021/11/13 v3.35 KOMA-Script package (KOMA-Script-dependent b
+asics and keyval usage)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/scrbase.sty
+Package: scrbase 2021/11/13 v3.35 KOMA-Script package (KOMA-Script-independent 
+basics and keyval usage)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/scrlfile.sty
+Package: scrlfile 2021/11/13 v3.35 KOMA-Script package (file load hooks)
+(/usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/scrlfile-hook.sty
+Package: scrlfile-hook 2021/11/13 v3.35 KOMA-Script package (using LaTeX hooks)
+
+(/usr/local/texlive/2022/texmf-dist/tex/latex/koma-script/scrlogo.sty
+Package: scrlogo 2021/11/13 v3.35 KOMA-Script package (logo)
+)))
+Applying: [2021/05/01] Usage of raw or classic option list on input line 252.
+Already applied: [0000/00/00] Usage of raw or classic option list on input line
+ 368.
+))) (/usr/local/texlive/2022/texmf-dist/tex/latex/enumitem/enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip49
+\enit@outerparindent=\dimen152
+\enit@toks=\toks20
+\enit@inbox=\box52
+\enit@count@id=\count282
+\enitdp@description=\count283
+)
+LaTeX Info: Redefining \rmfamily on input line 21.
+) (./config/custom-command.tex)) (/usr/local/texlive/2022/texmf-dist/tex/generi
+c/tex4ht/tex4ht.4ht
+version 2021-06-20-15:33
+--------------------------------------
+--- Note --- for additional information, use the command line option `info'
+--------------------------------------
+::::::::::::::::::::::::::::::::::::::::::
+ TeX4ht info is available in the log file 
+::::::::::::::::::::::::::::::::::::::::::
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/tex4ht.sty
+version 2021-09-14-14:11
+l.855 --- TeX4ht warning --- nonprimitive \everypar ---
+--- needs --- tex4ht main ---
+\tmp:cnt=\count284
+\openout15 = `main.tmp'.
+
+(./main.tmp)
+\tmp:dim=\skip50
+(./main.xref)
+\:refout=\write3
+\openout3 = `main.xref'.
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2022-03-20-09:15
+--------------------------------------
+--- Note --- to remove the <?xml version=...?> processing instruction use the c
+ommand line option `no-VERSION'
+--------------------------------------
+--------------------------------------
+--- Note --- to remove the DOCTYPE declaration use the command line option `no-
+DOCTYPE'
+--------------------------------------
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2021-06-19-14:11
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-03-08-13:51
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2022-01-23-07:51
+)
+--------------------------------------
+--- Note --- for marking of the base font, use the command line option `fonts+'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for non active _, use the command line option `no_'
+--------------------------------------
+--------------------------------------
+--- Note --- for _ of catcode 13, use the command line option `_13'
+--------------------------------------
+--------------------------------------
+--- Note --- for non active ^, use the command line option `no^'
+--------------------------------------
+--------------------------------------
+--- Note --- for ^ of catcode 13, use the command line option `^13'
+--------------------------------------
+(/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2022-03-20-09:15
+--------------------------------------
+--- Note --- to ignore CSS font decoration, use the `NoFonts' command line opti
+on
+--------------------------------------
+--------------------------------------
+--- Note --- for jpg bitmaps of pictures, use the `jpg' command line option. (C
+haracter bitmaps are controled only by `g' records of tex4ht.env and `-g' switc
+hes of tex4ht.c) 
+--------------------------------------
+--------------------------------------
+--- Note --- for gif bitmaps of pictures, use the `gif' command line option. (C
+haracter bitmaps are controled only by `g' records of tex4ht.env and `-g' switc
+hes of tex4ht.c) 
+--------------------------------------
+--------------------------------------
+--- Note --- for content and toc in 2 frames, use the command line option `fram
+es'
+--------------------------------------
+--------------------------------------
+--- Note --- for content, toc, and footnotes in 3 frames, use the command line 
+option `frames-fn'
+--------------------------------------
+--------------------------------------
+--- Note --- for file extension name xht, use the command line option `xht'
+--------------------------------------
+TeX4ht package options: xhtml,charset=utf-8,html5,html
+--------------------------------------
+--- Note --- To print a timestamp, use the command line option timestamp
+--------------------------------------
+--------------------------------------
+--- Note --- to ignore CSS code, use the command line option `-css
+--------------------------------------
+--------------------------------------
+--- Note --- for inline CSS code, use the command line option `css-in'
+--------------------------------------
+--------------------------------------
+--- Note --- for pop ups on mouse over, use the command line option `mouseover'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for addressing images in a subdirectory, use the command line opti
+on `imgdir:.../'
+--------------------------------------
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2021-06-19-14:11
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-03-08-13:51
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2022-01-23-07:51
+--------------------------------------
+--- Note --- To print a timestamp, use the command line option timestamp
+--------------------------------------
+)
+\:tokwrite=\toks21
+\:tokpage=\toks22
+--------------------------------------
+--- Note --- for back links to toc, use the command line option `sections+'
+--------------------------------------
+--------------------------------------
+--- Note --- for linear crosslinks of pages, use the command line option `next'
+
+--------------------------------------
+\openout15 = `main.4ct'.
+
+\:tocout=\write4
+\openout4 = `main.4tc'.
+
+(/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2022-03-20-09:15
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2021-06-19-14:11
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-03-08-13:51
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2022-01-23-07:51
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/latex.4ht
+version 2022-02-01-14:27
+LaTeX Info: Redefining \_ on input line 173.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/kastrup/binhex.tex) (/usr/loc
+al/texlive/2022/texmf-dist/tex/latex/base/tuenc.def
+File: tuenc.def 2021/04/29 v2.0v Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding TU on input line 106.
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/tuenc-xetex.4ht
+version 2018-05-20-10:14
+(/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2022-03-20-09:15
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2021-06-19-14:11
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-03-08-13:51
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2022-01-23-07:51
+))
+LaTeX Info: Redefining \, on input line 792.
+LaTeX Info: Redefining \; on input line 793.
+LaTeX Info: Redefining \! on input line 794.
+LaTeX Info: Redefining \: on input line 795.
+LaTeX Info: Redefining \> on input line 796.
+--------------------------------------
+--- Note --- for links into captions, instead of float heads, use the command l
+ine option `refcaption'
+--------------------------------------
+(/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2022-03-20-09:15
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2021-06-19-14:11
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-03-08-13:51
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2022-01-23-07:51
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2022-03-20-09:15
+--------------------------------------
+--- Note --- For mini tocs immediately aftter the header use the command line o
+ption `minitoc<'
+--------------------------------------
+--------------------------------------
+--- Note --- for enumerated list elements with valued data, use the command lin
+e option `enumerate+'
+--------------------------------------
+--------------------------------------
+--- Note --- for enumerated list elements li's with value attributes, use the c
+ommand line option `enumerate-'
+--------------------------------------
+--------------------------------------
+--- Note --- for CSS2 code, use the command line option `css2'
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial tabular, use the command line option `pic-tabular'
+--------------------------------------
+--------------------------------------
+--- Note --- for bitmap fbox'es, use the command line option `pic-fbox'
+--------------------------------------
+--------------------------------------
+--- Note --- for bitmap framebox'es, use the command line option `pic-framebox'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for inline footnotes use command line option `fn-in'
+--------------------------------------
+--------------------------------------
+--- Note --- for tracing of latex font commands, use the command line option `f
+onts'
+--------------------------------------
+--------------------------------------
+--- Note --- for width specifications of tabular p entries, use the `p-width' c
+ommand line option or a configuration similar to \Configure{HColWidth}{\HCode{ 
+style="width:\HColWidth"}}
+--------------------------------------
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2021-06-19-14:11
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-03-08-13:51
+--------------------------------------
+--- Note --- for pictorial eqnarray, use the command line option `pic-eqnarray'
+
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial array, use the command line option `pic-array'
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial $...$ environments, use the command line option `pic
+-m' (not recommended!!)
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial $...$ and $$...$$ environments with latex alt, use t
+he command line option `pic-m+' (not safe!!)
+--------------------------------------
+--------------------------------------
+--- Note --- for pictorial array, use the command line option `pic-array'
+--------------------------------------
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2022-01-23-07:51
+)) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/fontmath.4ht
+version 2018-11-06-15:55
+(/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2022-03-20-09:15
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2021-06-19-14:11
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-03-08-13:51
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2022-01-23-07:51
+)) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/article.4ht
+version 2022-02-22-13:25
+(/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2022-03-20-09:15
+--------------------------------------
+--- Note --- for automatic sectioning pagination, use the command line option `
+1', `2', `3', '4', '5', '6', or '7'
+--------------------------------------
+--------------------------------------
+--- Note --- for files named derived from section titles, use the command line 
+option `sec-filename'
+--------------------------------------
+--------------------------------------
+--- Note --- for i-columns index, use the command line option `index=i' (e.g., 
+index=2)
+--------------------------------------
+
+! LaTeX Error: Missing \begin{document} in `'.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.11252 ...{Font\string_Size: #1}\ifcase  \@ptsize
+                                                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2021-06-19-14:11
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-03-08-13:51
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2022-01-23-07:51
+)) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/babel.4ht
+version 2021-05-16-09:21
+(/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2022-03-20-09:15
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2021-06-19-14:11
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-03-08-13:51
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2022-01-23-07:51
+)) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/english.4ht
+version 2009-05-21-09:32
+(/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2022-03-20-09:15
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2021-06-19-14:11
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-03-08-13:51
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2022-01-23-07:51
+)) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/geometry.4ht
+version 2016-07-01-08:55
+(/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2022-03-20-09:15
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2021-06-19-14:11
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-03-08-13:51
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2022-01-23-07:51
+)) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/fontspec.4ht
+version 2021-06-13-08:46
+(/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2022-03-20-09:15
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2021-06-19-14:11
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-03-08-13:51
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2022-01-23-07:51
+)) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/fontspec-xetex.4ht
+version 2017-01-24-15:21
+(/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2022-03-20-09:15
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2021-06-19-14:11
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-03-08-13:51
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2022-01-23-07:51
+)) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/microtype.4ht
+version 2009-05-21-09:32
+(/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2022-03-20-09:15
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2021-06-19-14:11
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-03-08-13:51
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2022-01-23-07:51
+)) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/enumitem.4ht
+version 2009-05-21-09:32
+(/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2022-03-20-09:15
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2021-06-19-14:11
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-03-08-13:51
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2022-01-23-07:51
+)) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4.4ht
+version 2022-03-20-09:15
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/unicode.4ht
+version 2021-06-19-14:11
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html4-math.4ht
+version 2022-03-08-13:51
+) (/usr/local/texlive/2022/texmf-dist/tex/generic/tex4ht/html5.4ht
+version 2022-01-23-07:51
+)) (./main.aux)
+\openout1 = `main.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 4.
+LaTeX Font Info:    Trying to load font information for TS1+cmr on input line 4
+.
+(/usr/local/texlive/2022/texmf-dist/tex/latex/base/ts1cmr.fd
+File: ts1cmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
+)
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 4.
+LaTeX Font Info:    ... okay on input line 4.
+*geometry* driver: auto-detecting
+*geometry* detected driver: xetex
+*geometry* verbose mode - [ preamble ] result:
+* driver: xetex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.67497pt plus 4.29951pt minus 2.15045pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+LaTeX Info: Redefining \microtypecontext on input line 4.
+Package microtype Info: Not applying patch `item' (for tex4ht) on input line 4.
+
+Package microtype Info: Not applying patch `toc' (for tex4ht) on input line 4.
+Package microtype Info: Not applying patch `eqnum' (for tex4ht) on input line 4
+.
+Package microtype Info: Not applying patch `footnote' (for tex4ht) on input lin
+e 4.
+Package microtype Info: No character protrusion.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of spacing.
+Package microtype Info: No adjustment of kerning.
+Package microtype Info: Redefining babel's language switching commands.
+--- file main.css ---
+LaTeX Info: Redefining \rmfamily on input line 10.
+LaTeX Info: Redefining \rmfamily on input line 13.
+LaTeX Info: Redefining \rmfamily on input line 18.
+LaTeX Info: Redefining \rmfamily on input line 31.
+LaTeX Info: Redefining \rmfamily on input line 31.
+LaTeX Info: Redefining \rmfamily on input line 31.
+LaTeX Info: Redefining \rmfamily on input line 31.
+LaTeX Info: Redefining \rmfamily on input line 31.
+[1
+
+]
+LaTeX Info: Redefining \rmfamily on input line 69.
+LaTeX Info: Redefining \rmfamily on input line 69.
+LaTeX Info: Redefining \rmfamily on input line 69.
+LaTeX Info: Redefining \rmfamily on input line 69.
+LaTeX Info: Redefining \rmfamily on input line 69.
+[2] [3]
+LaTeX Info: Redefining \rmfamily on input line 69.
+LaTeX Info: Redefining \rmfamily on input line 69.
+LaTeX Info: Redefining \rmfamily on input line 69.
+LaTeX Info: Redefining \rmfamily on input line 69.
+[4]
+LaTeX Info: Redefining \rmfamily on input line 69.
+LaTeX Info: Redefining \rmfamily on input line 69.
+[5]
+LaTeX Info: Redefining \rmfamily on input line 69.
+LaTeX Info: Redefining \rmfamily on input line 69.
+[6]
+LaTeX Info: Redefining \rmfamily on input line 78.
+[7]
+LaTeX Info: Redefining \rmfamily on input line 89.
+LaTeX Info: Redefining \rmfamily on input line 89.
+LaTeX Info: Redefining \rmfamily on input line 89.
+LaTeX Info: Redefining \rmfamily on input line 89.
+[8] [9] (./main.aux) ) 
+Here is how much of TeX's memory you used:
+ 11597 strings out of 476179
+ 231784 string characters out of 5809544
+ 919625 words of memory out of 5000000
+ 32120 multiletter control sequences out of 15000+600000
+ 487263 words of font info for 37 fonts, out of 8000000 for 9000
+ 1348 hyphenation exceptions out of 8191
+ 143i,5n,175p,836b,464s stack positions out of 10000i,1000n,20000p,200000b,200000s
+
+Output written on main.xdv (9 pages, 18612 bytes).
