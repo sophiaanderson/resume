@@ -2,16 +2,6 @@ name: CI
 on: [push]
 permissions:
   contents: write
-version: 2
-updates:
-- package-ecosystem: "github-actions"
-  directory: "/"
-  schedule:
-    interval: "daily"
-  labels:
-  - "CI/CD"
-  commit-message:
-    prefix: ci
 jobs:
   build:
     runs-on: ubuntu-latest
