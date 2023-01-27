@@ -1,0 +1,28 @@
+name: CI
+on: [push]
+permissions:
+  contents: write
+version: 2
+updates:
+- package-ecosystem: "github-actions"
+  directory: "/"
+  schedule:
+    interval: "daily"
+  labels:
+  - "CI/CD"
+  commit-message:
+    prefix: ci
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v3
+    - name: Run make4ht
+      uses: docker://ghcr.io/michal-h21/make4ht-action:latest
+      env:
+        command: 'make4ht --xetex -d out main.tex "fn-in"'
+    - name: Publish the web pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./out
